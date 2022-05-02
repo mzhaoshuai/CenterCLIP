@@ -1,0 +1,13 @@
+FROM pytorch/pytorch:1.9.0-cuda11.1-cudnn8-devel
+LABEL maintainer "zhaoshuai"
+RUN apt-get update && apt-get install -y apt-transport-https \
+					&& apt-get install -y libturbojpeg
+RUN \
+	/opt/conda/bin/conda install -c fastai -c conda-forge -c anaconda -c tensorly -c conda-forge -c fvcore -c iopath \
+	tensorly cython matplotlib scipy scikit-learn opencv-python-headless cupy tensorboardx tensorboard fvcore=0.1.4 iopath \
+	python-lmdb msgpack-python pyarrow jupyter tqdm setproctitle sphinx=3.2.0 av parameterized mock pyturbojpeg scipy scikit-learn \
+	einops albumentations \
+	&& /opt/conda/bin/conda clean -ya \
+	&& pip install coolgpus
+
+	
