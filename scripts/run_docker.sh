@@ -25,7 +25,7 @@ docker_final_image="$docker_image$docker_image_tag"
 						--shm-size 64G \
 						--memory-reservation 120G \
 						-v /home/${USER}:/home/${USER} --user=${UID}:${GID} -w ${DIR_NOW}/.. \
-                        -v /data1:/data1 \
+						-v /data1:/data1 \
 						-v /etc/group:/etc/group:ro -v /etc/passwd:/etc/passwd:ro \
 						-p $docker_image_port:$docker_image_port $docker_final_image bash
 

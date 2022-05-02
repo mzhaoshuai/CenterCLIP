@@ -102,7 +102,7 @@ do
 			cluster_inter=1
 			cluster_algo='kmediods++'
 			cluster_num_blocks='196 196 196 196 196 196 160 160 160 160 160 160'
-            target_frames_blocks='60 60 60 60 60 60 20 20 20 20 20 20'
+			target_frames_blocks='60 60 60 60 60 60 20 20 20 20 20 20'
 			;;
 		03 )
 			pretrained_clip_name=ViT-B/16
@@ -111,7 +111,7 @@ do
 			cluster_inter=1
 			cluster_algo='kmediods++'
 			cluster_num_blocks='196 196 196 196 196 196 160 160 160 160 160 160'
-            target_frames_blocks='60 60 60 60 60 60 15 15 15 15 15 15'
+			target_frames_blocks='60 60 60 60 60 60 15 15 15 15 15 15'
 			;;
 		05 )
 			pretrained_clip_name=ViT-B/16
@@ -120,7 +120,7 @@ do
 			cluster_inter=1
 			cluster_algo='kmediods++'
 			cluster_num_blocks='196 196 196 196 196 196 160 160 160 160 160 160'
-            target_frames_blocks='60 60 60 60 60 60 12 12 12 12 12 12'
+			target_frames_blocks='60 60 60 60 60 60 12 12 12 12 12 12'
 			;;
 		04 )
 			# 8 V100 32GB GPUs

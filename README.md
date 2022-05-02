@@ -1,4 +1,13 @@
 [![License](https://img.shields.io/badge/license-CC--BY--NC%204.0-green)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![arXiv](https://img.shields.io/badge/cs.CV-%09arXiv%3A2205.00823-red)](https://arxiv.org/abs/2205.00823)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/centerclip-token-clustering-for-efficient/video-retrieval-on-activitynet)](https://paperswithcode.com/sota/video-retrieval-on-activitynet?p=centerclip-token-clustering-for-efficient)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/centerclip-token-clustering-for-efficient/video-retrieval-on-msvd)](https://paperswithcode.com/sota/video-retrieval-on-msvd?p=centerclip-token-clustering-for-efficient)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/centerclip-token-clustering-for-efficient/video-retrieval-on-lsmdc)](https://paperswithcode.com/sota/video-retrieval-on-lsmdc?p=centerclip-token-clustering-for-efficient)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/centerclip-token-clustering-for-efficient/video-retrieval-on-msr-vtt-1ka)](https://paperswithcode.com/sota/video-retrieval-on-msr-vtt-1ka?p=centerclip-token-clustering-for-efficient)
 
 
 # CenterCLIP
@@ -32,7 +41,7 @@ and decent computation cost reduction on MSVD, MSRVTT, LSMDC, and ActivityNet th
 <div align="justify">
 
 This is the code for the paper 
-<a href="todo">
+<a href="https://arxiv.org/abs/2205.00823">
 CenterCLIP: Token Clustering for Efficient Text-Video Retrieval.
 </a>
 <br />
@@ -65,7 +74,7 @@ CenterCLIP: Token Clustering for Efficient Text-Video Retrieval.
 We are open to pull requests.
 
 
-## Results and Checkpoints
+## Results
 
 ### MSVD
 Experiments on MSVD need at least 2 RTX 3090 GPUs.
@@ -265,6 +274,8 @@ Results of checkpoints on LSMDC are the same as the paper's data.
 Checkpoints on MSR-VTT and MSVD come from middle stages of our work.
 They have comparable performance with the paper's results (CenterCLIP, ViT-B/32).
 
+Third-party reproduction and checkpoints are warmly welcomed.
+
 Each zip file contains 4 types of files
 
 * a checkpoint of the model, typically, named as `ckpt.best.pth.tar`
@@ -301,7 +312,7 @@ Corresponding settings are ready in the bash scripts.
   author    = {Shuai Zhao and Linchao Zhu and Xiaohan Wang and Yi Yang},
   title     = {CenterCLIP: Token Clustering for Efficient Text-Video Retrieval},
   booktitle = {{SIGIR} '22: The 45th International {ACM} {SIGIR} Conference on Research
-               and Development in Information Retrieval, July 11–15, 2022, Madrid, Spain},
+			   and Development in Information Retrieval, July 11–15, 2022, Madrid, Spain},
   year      = {2022},
 }
 ```
@@ -322,6 +333,13 @@ This project is under the CC-BY-NC 4.0 license. See [LICENSE](LICENSE) for detai
 * [mlfoundations/open_clip](https://github.com/mlfoundations/open_clip)
 * [huggingface/transformers](https://github.com/huggingface/transformers)
 * [facebookresearch/pytorchvideo](https://github.com/facebookresearch/pytorchvideo)
+* [DeMoriarty/fast_pytorch_kmeans](https://github.com/DeMoriarty/fast_pytorch_kmeans)
+* [subhadarship/kmeans_pytorch](https://github.com/subhadarship/kmeans_pytorch)
+* [PyAV-Org/PyAV](https://github.com/PyAV-Org/PyAV)
+* [sallymmx/ActionCLIP](https://github.com/sallymmx/ActionCLIP)
+* [VideoNetworks/TokShift-Transformer](https://github.com/VideoNetworks/TokShift-Transformer)
+* [yjxiong/tsn-pytorch](https://github.com/yjxiong/tsn-pytorch)
+* [mit-han-lab/temporal-shift-module](https://github.com/mit-han-lab/temporal-shift-module)
 * [mzhaoshuai/Divide-and-Co-training](https://github.com/mzhaoshuai/Divide-and-Co-training)
 * [ZJULearning/RMI](https://github.com/ZJULearning/RMI)
 <!--te-->
