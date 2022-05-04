@@ -268,7 +268,7 @@ tensorboard --logdir=your_logdir --port=your_port
 
 ## Checkpoints
 
-Checkpoints trained on Tesla V100 GPUs are not available due to privacy policies.
+Checkpoints trained on Tesla V100 GPUs are not available now.
 We provide some checkpoints trained on 2 RTX 3090 GPUs for you to play around with.
 Results of checkpoints on LSMDC are the same as the paper's data.
 Checkpoints on MSR-VTT and MSVD come from middle stages of our work.
@@ -285,14 +285,14 @@ Each zip file contains 4 types of files
 
 | Checkpoint ID | Dataset | T2V R@1 | V2T R@1 | URL |
 | ----- | ------| ---- | --- | --- |
-| eclip_new_abla_lsmdc_04 | lsmdc | 21.9 | 21.1 | [zip](TODO) |
-| eclip_new_abla_lsmdc_09 | lsmdc | 21.7 | 21.4 | [zip](TODO) |
-| eclip_new_abla_lsmdc_22 | lsmdc | 21.6 | 20.6 | [zip](TODO) |
-| eclip_new_abla_lsmdc_23 | lsmdc | 21.4 | 19.5 | [zip](TODO) |
-| eclip_msrvtt_62 | msrvtt (7k) / 1k-A | 44.1 | 41.9 | [zip](TODO) |
-| eclip_msrvtt_63 | msrvtt (7k) / 1k-A | 44.2 | 43.2 | [zip](TODO) |
-| eclip_msrvtt_80 | msrvtt (7k) / 1k-A | 43.9 | 42.6 | [zip](TODO) |
-| eclip_msvd_22 | msvd | 47.5 | 61.4 | [zip](TODO) |
+| eclip_new_abla_lsmdc_04 | lsmdc | 21.9 | 21.1 | [zip file](https://github.com/mzhaoshuai/CenterCLIP/releases/download/0.0.1/eclip_new_abla_lsmdc_04.zip) |
+| eclip_new_abla_lsmdc_09 | lsmdc | 21.7 | 21.4 | [zip file](https://github.com/mzhaoshuai/CenterCLIP/releases/download/0.0.1/eclip_new_abla_lsmdc_09.zip) |
+| eclip_new_abla_lsmdc_22 | lsmdc | 21.6 | 20.6 | [zip file](https://github.com/mzhaoshuai/CenterCLIP/releases/download/0.0.1/eclip_new_abla_lsmdc_22.zip) |
+| eclip_new_abla_lsmdc_23 | lsmdc | 21.4 | 19.5 | [zip file](https://github.com/mzhaoshuai/CenterCLIP/releases/download/0.0.1/eclip_new_abla_lsmdc_23.zip) |
+| eclip_msrvtt_62 | msrvtt (7k) / 1k-A | 44.1 | 41.9 | [zip file](https://github.com/mzhaoshuai/CenterCLIP/releases/download/0.0.1/eclip_msrvtt_62.zip) |
+| eclip_msrvtt_63 | msrvtt (7k) / 1k-A | 44.2 | 43.2 | [zip file](https://github.com/mzhaoshuai/CenterCLIP/releases/download/0.0.1/eclip_msrvtt_63.zip) |
+| eclip_msrvtt_80 | msrvtt (7k) / 1k-A | 43.9 | 42.6 | [zip file](https://github.com/mzhaoshuai/CenterCLIP/releases/download/0.0.1/eclip_msrvtt_80.zip) |
+| eclip_msvd_22 | msvd | 47.5 | 61.4 | [zip file](https://github.com/mzhaoshuai/CenterCLIP/releases/download/0.0.1/eclip_msvd_22.zip) |
 
 Set
 ```
